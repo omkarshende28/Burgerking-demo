@@ -1,0 +1,159 @@
+/* navigation bar */
+.container{
+    display: flex;
+    width: 100%;
+}
+h5{
+    color: rgb(165, 163, 163);
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+a{
+  color: black;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+/* switch button */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #ff7b39;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f37521;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* search box */
+
+  form.example input[type=text]{
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 10px;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  form.example::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h6{
+    margin-top: 28px;
+    
+  }
+
+  /* our menu section */
+ .menu{
+    padding: 20px;
+    padding-left: 10px;
+    justify-content: center;
+ }
+
+ .menuimage{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 10px 10px 0 rgba(42, 42, 42, 0.377);
+ }
+
+
+ .menutext{
+    padding-left: 10px;
+    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+ .king{
+  padding: 20px;
+  justify-content: center;
+  
+}
+
+.btn{
+  border-radius: 30px;
+  background-color: #f37521;
+  color: white;
+  width: 300px;
+  margin-left: 620px;
+  margin-bottom: 20px;
+}
+
+
+.footer{
+  width: 100%;
+  height: 450px;
+  background-color: rgb(62, 62, 62);
+  color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.container1{
+  width: 100%;
+}
